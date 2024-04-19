@@ -20,4 +20,4 @@ jobs:
         run: npm install
 
       - name: 构建
-        run: npm run build
+        run: npm run build --publish=never
