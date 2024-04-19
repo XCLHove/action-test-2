@@ -5,7 +5,7 @@ permissions:
 jobs:
   build:
     name: 打包
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: 读取仓库内容
